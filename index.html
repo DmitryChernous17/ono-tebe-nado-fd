@@ -15,13 +15,13 @@
       <nav class="header_menu">
         <ul class="header_links-list">
           <li class="header_links-list-item_no-bullit">
-            <a class="active_header-link header__link" href="#0">главная</a>
-          </li>
-          <li class="header_links-list-item ">
-            <a class="header__link" href="#0">посмотреть лоты</a>
+            <a class="active_header-link header__link line_heigth_corrector" href="#0">главная</a>
           </li>
           <li class="header_links-list-item">
-            <a class="header__link" href="#0">об аукционе</a>
+            <a class="header__link line_heigth_corrector" href="#0">посмотреть лоты</a>
+          </li>
+          <li class="header_links-list-item">
+            <a class="header__link line_heigth_corrector" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -31,7 +31,7 @@
         alt="логотип Оно тебе надо"
        />
       </a>
-      <address class="adress">
+      <address class="adress line_heigth_corrector">
         <a class="tel" href="tel:+9 999 555 5555">+9 999 555 5555</a>
         <a class="mail"href="mailto:info@sobaka.ge"> info@sobaka.ge </a>
         <p>наб. Принсенграхт 263-<br>265, Амстердам</p>
@@ -40,7 +40,7 @@
     <main>
       <section class="cover">
         <div class="overlay"></div>
-          <h1 class="cover_header">
+          <h1 class="cover_header line_heigth_corrector">
             <span class="accent_span aligned-text">Оно</span>
             <span class="accent_span aligned-text_center">тебе</span>
             <span class="accent_span aligned-text_right">надо</span>    
@@ -49,20 +49,45 @@
             <p class="cover-description-text">
               Аукцион вещей, в которые никто не верил
             </p>
-            <button class="bet-button">Сделать ставку</button>
+            <button class="bet-button">
+              Сделать ставку
+            </button>
           </div>
         
       </section>
       <section class="lots">
-        <h2></h2>
-        <article>
-          <ul>
-            <li>
-              <a>
+        <h2 class="lots__heading">лоты</h2>
+          <ul class="lots_card-list">
+            <li class="lots_card-list-item">
+              <a href="#0" class="card-link overlay">
+                
+                <article class="card card_type_film">
+                  <div class="overlay"></div>
+                  <h3 class="card_title">фильм режиссёра, который бросил киношколу</h3>
+                  <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+                </article>
+              </a>
+            </li>
+            <li class="lots_card-list-item">
+              <a href="#0" class="card-link">
+                <article class="card card_type_book">
+                  <div class="overlay"></div>
+                  <h3 class="card_title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                  <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+                </article>
+              </a>
+            </li>
+            <li class="lots_card-list-item">
+              <a href="#0" class="card-link">
+                <article class="card card_type_picture">
+                  <div class="overlay"></div>
+                  <h3 class="card_title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                  <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+                </article>
               </a>
             </li>
           </ul>
-      </article>
+          <a href ="#0" class="lots_look-more-link">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="logo-column"></div>
