@@ -45,14 +45,14 @@ html {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 93px 50px 95px;
+  padding: 92px 50px 92px;
 }
 
 .header_links-list {
   display: flex;
   flex-direction: row;
   gap: 34px;
-  text-underline-offset: 4.8px;
+  text-underline-offset: 3.5px;
   list-style: circle;
 }
 
@@ -61,7 +61,7 @@ html {
 }
 
 .header_logo {
-  min-width: 132px;
+  min-width: 137px;
 }
 
 .header_logo-image {
@@ -130,7 +130,7 @@ html {
 }
 
 .bet-button {
-  border-color: #fff;
+  border: 1px solid currentColor;
   padding: 12px 32px 11px 31px;
   font-weight: 500;
   font-size: 22px;
@@ -219,7 +219,7 @@ html {
 }
 
 .about_column_logo {
-  padding: 35px 0 47px;
+  padding: 38px 0 47px;
 }
 
 .about_column_text {
